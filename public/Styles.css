@@ -27,6 +27,13 @@ input {
     margin: 5px;
 }
 
+a{
+    position: absolute;
+    right: 100px;
+    top: 35px;
+    color: var(--text-color);
+}
+
 #study-list {
     list-style-type: none;
     padding: 0;
