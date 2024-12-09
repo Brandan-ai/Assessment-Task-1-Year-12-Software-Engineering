@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 // Create a SQLite database
-const db = new sqlite3.Database("C:/Users/Aleisha Farley/Downloads/PWA_Tutorial/PWA_Tutorial/study-planner.db", (err) => {
+const db = new sqlite3.Database("C:/Users/slpsa/Downloads/Assessment-Task-1-Year-12-Software-Engineering/study-planner.db", (err) => {
     if (err) {
         console.error(err.message);
     }
