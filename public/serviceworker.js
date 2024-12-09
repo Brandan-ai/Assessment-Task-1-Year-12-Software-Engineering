@@ -3,17 +3,12 @@ self.addEventListener('install', (event) => {//adds an event listener for when i
         caches.open('study-planner-cache').then((cache) => {//opens the caches and stores the files and images
             return cache.addAll([
                 '/',
-                '/Index.html',
-                '/Styles.css',
-                '/Script.js',
-                '/Icons/cow.jfif',
-                "/Icons/cow-48x48.png",
-                "/Icons/cow-72x72.png",
-                "/Icons/cow-96x96.png",
-                "/Icons/cow-144x144.png",
-                "/Icons/cow-192x192.png",
-                "/Icons/cow-512x512.png",
-                '/Manifest.json'
+                "/Study Planner.html",
+                "/Study Content.html",
+                "/Styles.css",
+                "/Script.js",
+                "/Icons/Study-500x500.png",
+                "/Manifest.json"
             ]);
         })
     );
