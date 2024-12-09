@@ -1,7 +1,22 @@
+:root {
+    --text-color: Black;
+    --background-color: white;
+    --base-variant: #ffffff;
+    --primary-color: #000000;
+}
+
+.darkmode{
+    --text-color: white;
+    --background-color: black;
+    --base-variant:#000000;
+    --primary-color: #ffffff;
+}
+
 body { /*defines the apperance of the body*/
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 form {
@@ -15,4 +30,29 @@ input {
 #study-list {
     list-style-type: none;
     padding: 0;
+}
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+#theme-switch svg{
+    fill: var(--primary-color);
+}
+#theme-switch svg:last-child{
+    display: none;
+}
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+.darkmode #theme-switch svg:last-child{
+    display:block;
 }
