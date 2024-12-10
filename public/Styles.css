@@ -45,7 +45,7 @@ a{
     color: var(--text-color);
 }
 
-#theme-switch{
+#theme-switch {
     height: 50px;
     width: 50px;
     padding: 0;
@@ -58,17 +58,39 @@ a{
     top: 20px;
     right: 20px;
 }
-#theme-switch svg{
+
+#theme-switch svg {
     fill: var(--primary-color);
 }
-#theme-switch svg:last-child{
+
+#theme-switch svg:last-child {
     display: none;
 }
-.darkmode #theme-switch svg:first-child{
+
+.darkmode #theme-switch svg:first-child {
     display: none;
 }
-.darkmode #theme-switch svg:last-child{
-    display:block;
+
+.darkmode #theme-switch svg:last-child {
+    display: block;
+}
+
+#menu-button {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    background: none;
+    border: none;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-button svg {
+    fill: var(--primary-color);
 }
 
 #study-list {
