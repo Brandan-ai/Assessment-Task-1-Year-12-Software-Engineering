@@ -3,13 +3,21 @@
     --background-color: white;
     --base-variant: #ffffff;
     --primary-color: #000000;
+    --border-color: #D3D3D3;
 }
 
 .darkmode{
     --text-color: white;
-    --background-color: black;
+    --background-color: #121212;
     --base-variant:#000000;
     --primary-color: #ffffff;
+    --border-color: #515151;
+}
+
+html, body {
+    height: 99.25%; /* Ensure full height for both html and body */
+    margin: 0;    /* Remove any default margin */
+    padding: 0;
 }
 
 body { /*defines the apperance of the body*/
@@ -17,6 +25,9 @@ body { /*defines the apperance of the body*/
     text-align: center;
     color: var(--text-color);
     background-color: var(--background-color);
+    border: 5px solid var(--border-color); /* Adjust the thickness if needed */
+    margin: 0; /* Ensure there's no default margin */
+    padding: 0; /* Remove any default padding */
 }
 
 form {
