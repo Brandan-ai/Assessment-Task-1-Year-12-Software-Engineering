@@ -45,10 +45,6 @@ a{
     color: var(--text-color);
 }
 
-#study-list {
-    list-style-type: none;
-    padding: 0;
-}
 #theme-switch{
     height: 50px;
     width: 50px;
@@ -73,4 +69,28 @@ a{
 }
 .darkmode #theme-switch svg:last-child{
     display:block;
+}
+
+#study-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;  /* Center align the text */
+}
+
+.study-session {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  /* Create three equal columns */
+    gap: 10px;  /* Adjust the gap between columns */
+    margin-bottom: 20px;  /* Space between sessions */
+    justify-content: center;  /* Center the grid items */
+}
+
+.header {
+    font-weight: bold;  /* Bold header text */
+    border-bottom: 2px solid var(--border-color);  /* Add a bottom border to the header */
+    margin-bottom: 10px;  /* Space below the header */
+}
+
+.session-item {
+    text-align: center;  /* Center align text within each column */
 }

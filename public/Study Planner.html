@@ -28,7 +28,13 @@
     <input type="text" id="search-query" placeholder="Search by subject or topic">
     <button id="search-button">Search</button>
     
-    <ul id="study-list"></ul> <!--references location of study list-->
+    <ul id="study-list">
+        <li class="study-session header">
+            <div class="session-item subject">Subject</div>
+            <div class="session-item topic">Topic</div>
+            <div class="session-item due-date">Due Date</div>
+        </li>
+    </ul>
     <script src="Script.js"></script> <!-- Interupts normal form processes and appends it into study list-->
     <script>
         if ('serviceworker' in navigator) { //checkf if there is a servicework
