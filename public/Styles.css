@@ -15,7 +15,7 @@
 }
 
 html, body {
-    height: 99.25%; /* Ensure full height for both html and body */
+    height: 100%; /* Ensure full height for both html and body */
     margin: 0;    /* Remove any default margin */
     padding: 0;
 }
