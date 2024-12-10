@@ -21,7 +21,7 @@ html, body {
 }
 
 body { /*defines the apperance of the body*/
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Sans Ms', cursive;
     text-align: center;
     color: var(--text-color);
     background-color: var(--background-color);
