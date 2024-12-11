@@ -25,7 +25,6 @@ body { /*defines the apperance of the body*/
     text-align: center;
     color: var(--text-color);
     background-color: var(--background-color);
-    border: 5px solid var(--border-color); /* Adjust the thickness if needed */
     margin: 0; /* Ensure there's no default margin */
     padding: 0; /* Remove any default padding */
 }
@@ -154,3 +153,4 @@ a{
 .session-item {
     text-align: center;  /* Center align text within each column */
 }
+
