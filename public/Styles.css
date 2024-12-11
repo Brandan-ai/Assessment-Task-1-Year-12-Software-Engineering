@@ -44,23 +44,61 @@ a{
     top: 35px;
     color: var(--text-color);
 }
-
+    
 #theme-switch {
-    height: 50px;
-    width: 50px;
-    padding: 0;
+    height: 60px; /* Ensuring enough height */
+    width: 60px; /* Ensuring enough width */
     border-radius: 50%;
     background-color: var(--base-variant);
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 10px;
+    right: 10px;
+    overflow: hidden;
+    box-sizing: border-box; /* Include padding and border in total size */
+    outline: none; /* Remove the focus outline */
+}
+
+#theme-switch {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    outline: none; /* Remove the focus outline */
+    border: none; /* Ensure no border is causing the ring */
+    padding: 0; /* Ensure no padding is added */
+    margin: 0; /* Ensure no margin is added */
 }
 
 #theme-switch svg {
     fill: var(--primary-color);
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+#theme-switch:focus {
+    outline: none; /* Remove the focus outline */
+}
+
+#theme-switch:active {
+    outline: none; /* Remove the focus outline */
+    border: none; /* Ensure no border is causing the ring */
+}
+
+#theme-switch:hover {
+    outline: none; /* Remove the focus outline */
 }
 
 #theme-switch svg:last-child {
@@ -107,7 +145,7 @@ a{
     justify-content: center;  /* Center the grid items */
 }
 
-.header {
+.header { 
     font-weight: bold;  /* Bold header text */
     border-bottom: 2px solid var(--border-color);  /* Add a bottom border to the header */
     margin-bottom: 10px;  /* Space below the header */
