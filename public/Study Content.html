@@ -38,9 +38,7 @@
     <p>
         This is where the study content database should be!
     </p>
-
-    <script src="Script.js"></script> <!-- Interupts normal form processes and appends it into study list-->
-    <script>
+   <script>
         if ('serviceworker' in navigator) { //checkf if there is a servicework
             navigator.serviceworker.register('serviceworker.js') //defines the service workers location
                 .then(() => {
