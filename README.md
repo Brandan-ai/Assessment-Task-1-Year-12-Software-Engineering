@@ -39,3 +39,18 @@ I honestly don't know what to put here.
 * The Study Planner features a light/dark mode toggle for people that either enjoy light mode or dark mode.
 * The Study Planner also features a secure login page that keeps you study sessions and content hidden until the correct username and password is entered.
 * The Study Planner also features a study content page where existing study content is.
+
+### Directory Structure
+* 'public', this directory contains all the front-end files.
+* 'Icons', this directory contains all the icons being used in the website.
+* 'darkmode.js' this file adds interactivity to the light/dark mode button.
+* 'Manifest.js' this file defines how the PWA should behave on a device.
+* 'Script.js' this file adds interactivity to the study planner buttons.
+* 'serviceworker.js' this file enables offline functionality and caches resources.
+* 'Sign In.html' this file is the structure for the Sign In page of the website.
+* 'Study Content.html' this file is the structure for the Study Content page of the website.
+* 'Study Planner.html' this file is the structure for the Study Planner page of the website.
+* 'Styles.css' this file is the styles used in each page of the website.
+* 'Server.js' this file sets up the Node.js server and connects to the SQLite database.
+* 'study-planner.db' this file is the database that stores the study sessions.
+* 'users.db' this file is the database that stores the username and password for the Sign In page.
