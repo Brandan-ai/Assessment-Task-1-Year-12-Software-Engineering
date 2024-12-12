@@ -21,4 +21,4 @@ This is a simple WPA Study Planner that is designed to store your study sessions
 * This starts up your PWA locally.
 * After that you can open either a 'New Incognito Window' or 'New InPrivate Window' and type 'localhost:3000' in the search bar.
 * The Study Planner should be ready to go!
-* **The Login details are 'Username' and 'Password'.**
+* **The Login details are 'Test' and '1234'.**
