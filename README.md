@@ -1,6 +1,5 @@
 # Assessment-Task-1-Year-12-Software-Engineering-Brandan-Farley
 
-
 ### Project Overview
 This is a simple WPA Study Planner that is designed to store your study sessions for you so you don't have to.
 
@@ -17,10 +16,26 @@ This is a simple WPA Study Planner that is designed to store your study sessions
 * After that type 'npm install sqlite3' and press enter.
 * After that type 'npm install express' and press enter.
 * This downloads and installs sqlite3 and express.
-* After all this is done you can type 'node server.js'.
+* After this you will need to edit the directories of the databases.
+* Navigate to 'Server.js', you will need to replace the directories on lines 12 and 70.
+* Open file explorer and find where 'study-planner.db' and users.db are.
+* Left then right click on 'study-planner' and select 'Copy as path'.
+* Go back to Server.js and paste this in line 12 where the existing path is.
+* You will have to change the '\'s to '/'.
+* After that navigate back to file explorer.
+* Left then right click on 'users' and select 'Copy as path'.
+* Go back to Server.js and paste this in line 70 where the existing path is.
+* You will have to change the '\'s to '/'.
+* After all this is done you can type 'node server.js' in the powershell.
 * This starts up your PWA locally.
 * After that you can open either a 'New Incognito Window' or 'New InPrivate Window' and type 'localhost:3000' in the search bar.
 * The Study Planner should be ready to go!
 * **The Login details are 'Test' and '1234'.**
 
-# Usage Guidelines
+### Usage Guidelines
+I honestly don't know what to put here.
+
+### Features
+* The Study Planner features a light/dark mode toggle for people that either enjoy light mode or dark mode.
+* The Study Planner also features a secure login page that keeps you study sessions and content hidden until the correct username and password is entered.
+* The Study Planner also features a study content page where existing study content is.
