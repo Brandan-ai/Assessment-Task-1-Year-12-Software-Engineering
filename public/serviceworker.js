@@ -3,6 +3,7 @@ self.addEventListener('install', (event) => {//adds an event listener for when i
         caches.open('study-planner-cache').then((cache) => {//opens the caches and stores the files and images
             return cache.addAll([
                 '/',
+                "/Sign In.html",
                 "/Study Planner.html",
                 "/Study Content.html",
                 "/Styles.css",
