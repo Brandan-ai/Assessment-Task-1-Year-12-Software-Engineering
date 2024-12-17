@@ -32,9 +32,6 @@ This is a simple WPA Study Planner that is designed to store your study sessions
 * The Study Planner should be ready to go!
 * **The Login details are 'Test' and '1234'.**
 
-### Usage Guidelines
-I honestly don't know what to put here.
-
 ### Features
 * The Study Planner features a light/dark mode toggle for people that either enjoy light mode or dark mode.
 * The Study Planner also features a secure login page that keeps you study sessions and content hidden until the correct username and password is entered.
