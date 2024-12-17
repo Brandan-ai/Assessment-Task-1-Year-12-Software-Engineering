@@ -21,11 +21,11 @@ This is a simple WPA Study Planner that is designed to store your study sessions
 * Open file explorer and find where 'study-planner.db' and users.db are.
 * Left then right click on 'study-planner' and select 'Copy as path'.
 * Go back to Server.js and paste this in line 12 where the existing path is.
-* You will have to change the '\'s to '/'.
+* You will have to change the '\\'s to '/'.
 * After that navigate back to file explorer.
 * Left then right click on 'users' and select 'Copy as path'.
 * Go back to Server.js and paste this in line 70 where the existing path is.
-* You will have to change the '\'s to '/'.
+* You will have to change the '\\'s to '/'.
 * After all this is done you can type 'node server.js' in the powershell.
 * This starts up your PWA locally.
 * After that you can open either a 'New Incognito Window' or 'New InPrivate Window' and type 'localhost:3000' in the search bar.
