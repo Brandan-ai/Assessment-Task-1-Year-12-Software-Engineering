@@ -4,9 +4,9 @@
 This is a simple WPA Study Planner that is designed to store your study sessions for you so you don't have to.
 
 ### Setup Instructions
-* To begin with, install Visual Studio Code.
-* After that install 'sqlite3'.
-* After that install 'Node.js'.
+* To begin with, install Visual Studio Code. https://code.visualstudio.com/
+* After that install 'sqlite3'. https://www.sqlite.org/download.html
+* After that install 'Node.js'. https://nodejs.org/en
 * After that, open Visual Studio Code and click on file in the top left hand corner, select open folder and find 'Assessment-Task-1-Year-12-Software-Engineering', click on it, then click select folder.
 * After that click the triple dots in the top left hand side.
 * After that hover over 'Terminal' and click 'New Terminal', a powershell tab should open up at the bottom of the page, click on it.
